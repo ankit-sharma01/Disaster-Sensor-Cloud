@@ -1,0 +1,24 @@
+{
+  "name": "SensorCloud-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Team 2",
+  "license": "ISC",
+  "dependencies":{
+  	"express" : "*",
+  	"debug":"*",
+  	"ejs":"*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "express-session": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "mongoose": "*",
+    "bcrypt-nodejs" : "*",
+    "connect-flash" : "*"
+  }
+}
